@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Install packeges
+    apt:
+      name:
+      - python3
+      - nginx
+  - name: Run produser
+    command: python3 produser.py
+  - name: Run consumer
+    command: python3 consumer.py -e 4815162342,3133780085
