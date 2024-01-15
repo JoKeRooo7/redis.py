@@ -1,3 +1,8 @@
+<a href="https://redis.io/">
+  <img src="https://github.com/JoKeRooo7/JoKeRooo7/blob/develop/icons/icons8-redis-240.png" alt="your_gif" 
+     width="120" height="120">
+</a>
+
 ## Working with Redis in python
 
 
